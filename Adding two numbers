@@ -1,0 +1,9 @@
+#numbers can be declared directly with initialization without any prefix such as num=1
+#input function acts as scanf in C. It demands the user inputs, numbers in our example
+num1=int(input('enter first number'))
+num2=int(input('enter second number'))
+
+#either of the below two staement can be used for output
+print("the addition of two numbers is" + "  " + str(num1+num2))
+
+print("the addition of two numbers is" ,num1+num2)
